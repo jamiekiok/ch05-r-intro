@@ -31,3 +31,22 @@
 
 ## bonus:
 ## how to make write this exercise in a function??
+
+chance_of_rain <- 0
+I_saw_raindrops <- TRUE
+my_shoes_are_wet <- TRUE
+my_ta_is_soaked <- TRUE
+I_love_cookies <- TRUE
+if (I_saw_raindrops) {
+  chance_of_rain <- 100
+} else if (my_shoes_are_wet) {
+  chance_of_rain = chance_of_rain + 40
+} else if (my_ta_is_soaked) {
+  chance_of_rain = chance_of_rain + 50   
+}
+
+if (!I_love_cookies) {
+  print("because they are too sweet!")
+}
+
+paste("The chance of rain in Seattle is", chance_of_rain, "percent") 
