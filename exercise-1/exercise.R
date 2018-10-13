@@ -16,3 +16,12 @@
 
 # Create a variable `max_puppies`, which is the number of puppies you can afford for $1K.  Compute this
 # value in R, not just assign!
+
+hometown <- "Seattle"
+my.name <- "Jamie"
+my.height <- "5 foot 7"
+puppies <- 2
+puppy.price <- 1500
+total.cost <- 3000
+too.expensive <- TRUE 
+max_puppies <- 1000 / (puppy.price / puppies)
